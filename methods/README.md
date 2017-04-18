@@ -1,20 +1,20 @@
-Now that we are starting to work with lots of data, it's time to get comfortable with:
+# Holy Methods, Batman!
 
-1. Using Third Party APIs
-2. Making GET requests in Postman
-3. Parsing through big data blocks (using array methods and object manipulation).
+![batman](./assets/batman.gif)
 
-## Tonight's Assignment
+We've been learning about:
+- Using third-party APIs
+- Making GET requests in Postman
+- Parsing through big blocks of data (using array methods and object manipulation)
+- Using array methods to add information to the DOM
+
 Let's fuse all of those skills above into tonight's hw using a free movie API called OMDB!
 
-Follow the steps below to set up your environment:
+### Setting up!
 
 1. Check out <a href="http://www.omdbapi.com/">OMDB</a> to get used to reading API documentation.
-
 2. Take this link `http://www.omdbapi.com/?s=batman&y=&plot=full&r=json` (from the OMDB docs) and make a `GET` request in Postman, to get Batman movies in OMDB's database!
-
-3. See that beautiful data (AKA JSON Object)? Copy and paste that info into your JS file in the `response` object.
-
+3. See that beautiful data (AKA JSON Object)? Copy and paste that info into `/src/main.js` in the `response` object.
 4. Now jump into the questions below using the `response` object data.
 
 ### Part One: Object Basics

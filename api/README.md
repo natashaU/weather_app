@@ -10,9 +10,9 @@ Here's an exciting challenge: You'll be building a small weather app, using your
 
 #### 🚀 Make sure you follow all of these steps!
 
-For this homework you'll be using the Open Weather Data API. In order to use it, please follow these steps:
+For this homework you'll be using your newfound knowledge of the Open Weather API!!! In case you didn't get your API key set up in class today, please follow these steps:
 
-1. If you haven't yet, sign up for a free [Open Weather Map](https://home.openweathermap.org/users/sign_up) account!
+1. Sign up for a free [Open Weather Map](https://home.openweathermap.org/users/sign_up) account!
 2. Once you've signed up, you're given an [API key](https://home.openweathermap.org/api_keys). Copy that API key and keep track of it somewhere!
 3. Open Postman to check out the data you're working with & to verify that your key works. Make a GET requrest to the following URL in postman, adding your API key to the end.
 
