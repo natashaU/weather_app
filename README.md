@@ -14,7 +14,7 @@
 
 ### Part Three
 
-- This part is easy. Read the article [What Screens Want](https://www.frankchimero.com/writing/what-screens-want/). This is pre-reading for Responsive Design later this week, but we'd like you to have a couple days to digest it. (It's an older article -- written around the time iOS switched to the flat design aesthetic in 2013 -- but still _extremely_ relevant.)
+- This part is easy. Read the article [The Web's Grain](https://www.frankchimero.com/writing/the-webs-grain/). This is pre-reading for Responsive Design later this week, but we'd like you to have a couple days to digest it. (If you really like that article, [this one](https://www.frankchimero.com/writing/what-screens-want/) is also very amazing.)
 
 ## 🚀 Your homework submission should include:
 
