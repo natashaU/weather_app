@@ -2,11 +2,9 @@
 
 Here's an exciting challenge: You'll be building a small weather app, using your newfound skills with APIs!
 
-## In the end, your weather app will look like this:
+## In the end, your weather app will look like this in the mobile view:
 
-![mockup](./assets/mockup.png)
-
-You can do whatever you like for the design of the desktop version!
+![mockup](./assets/mobile.jpg)
 
 ## Setting up
 
@@ -22,7 +20,7 @@ For this homework you'll be using the Open Weather Data API. In order to use it,
 http://api.openweathermap.org/data/2.5/weather?q=10025,us?units=imperial&appid=[PUT YOUR API KEY HERE]
 ```
 
-### You'll be working in the [weather directory](./weather/), in `index.html`, `src/main.js`, and `style/style.css`.
+#### You'll be working in the [weather directory](./weather/), in `index.html`, `src/main.js`, and `style/style.css`.
 
 ## Your page should have:
 - An input field for a user to enter a zip code
@@ -46,3 +44,13 @@ Here are some zip codes to test!
 - 00902 (San Juan, Puerto Rico)
 - 46923 (Delphi, IN)
 - 94123 (San Francisco, CA)
+
+## BONUSES!!
+
+- Add the latitude and longitude, humidity, precipitation, and wind speed
+- Add FontAwesome icons
+- Add sunrise and sunset times (look into [the javascript date object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)... if you dare!!!)
+- Get the desktop view to work like this:
+
+![desktop](./assets/desktop.jpg)
+
