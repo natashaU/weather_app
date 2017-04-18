@@ -6,6 +6,8 @@ Here's an exciting challenge: You'll be building a small weather app, using your
 
 ![mockup](./assets/mockup.png)
 
+You can do whatever you like for the design of the desktop version!
+
 ## Setting up
 
 #### 🚀 Make sure you follow all of these steps!
