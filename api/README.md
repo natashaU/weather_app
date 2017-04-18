@@ -2,13 +2,17 @@
 
 Here's an exciting challenge: You'll be building a small weather app, using your newfound skills with APIs!
 
+## In the end, your weather app will look like this:
+
+![mockup](./assets/mockup.png)
+
 ## Setting up
 
 #### 🚀 Make sure you follow all of these steps!
 
 For this homework you'll be using the Open Weather Data API. In order to use it, please follow these steps:
 
-1. Sign up for a free [Open Weather Map](https://home.openweathermap.org/users/sign_up) account!
+1. If you haven't yet, sign up for a free [Open Weather Map](https://home.openweathermap.org/users/sign_up) account!
 2. Once you've signed up, you're given an [API key](https://home.openweathermap.org/api_keys). Copy that API key and keep track of it somewhere!
 3. Open Postman to check out the data you're working with & to verify that your key works. Make a GET requrest to the following URL in postman, adding your API key to the end.
 
@@ -29,7 +33,7 @@ http://api.openweathermap.org/data/2.5/weather?q=10025,us?units=imperial&appid=[
         - Weather description
         - Min temp
         - Max temp
-- **BONUS**: Have the temperature turn blue if under 40, and red if above 90.
+- Have the temperature turn blue if under 40, and red if above 90.
 
 Here are some zip codes to test!
 - 99501 (Anchorage)
