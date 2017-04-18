@@ -2,6 +2,20 @@
 
 Here's an exciting challenge: You'll be building a small weather app, using your newfound skills with APIs!
 
+## Setting up
+
+#### 🚀 Make sure you follow all of these steps!
+
+For this homework you'll be using the Open Weather Data API. In order to use it, please follow these steps:
+
+1. Sign up for a free [Open Weather Map](https://home.openweathermap.org/users/sign_up) account!
+2. Once you've signed up, you're given an [API key](https://home.openweathermap.org/api_keys). Copy that API key and keep track of it somewhere!
+3. Open Postman to check out the data you're working with & to verify that your key works. Make a GET requrest to the following URL in postman, adding your API key to the end.
+
+```
+http://api.openweathermap.org/data/2.5/weather?q=10025,us?units=imperial&appid=[PUT YOUR API KEY HERE]
+```
+
 
 ### Your page should have:
 - An input field for a user to enter a zip code
