@@ -2,10 +2,6 @@
 
 Here's an exciting challenge: You'll be building a small weather app, using your newfound skills with APIs!
 
-## In the end, your weather app will look like this in the mobile view:
-
-![mockup](./assets/mobile.jpg)
-
 ## Setting up
 
 #### 🚀 Make sure you follow all of these steps!
@@ -21,6 +17,10 @@ http://api.openweathermap.org/data/2.5/weather?q=10025,us?units=imperial&appid=[
 ```
 
 #### You'll be working in the [weather directory](./weather/), in `index.html`, `src/main.js`, and `style/style.css`.
+
+## In the end, your weather app will look like this in the mobile view:
+
+![mockup](./assets/mobile.jpg)
 
 ## Your page should have:
 - An input field for a user to enter a zip code
