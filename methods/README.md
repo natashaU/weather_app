@@ -91,7 +91,7 @@ var total = numbers.reduce(function(sum, current) {
 console.log(total);
   => 6
 ```
-Now use [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) to complete the next two problems:
+Now use [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) to complete the next problem:
 
 1. Using `reduce()`, iterate over `response` and concatenate all the imdbIDs together, saving this string to a variable called `rambleOfImdbIDs`. Console log this.
 
