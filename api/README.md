@@ -16,8 +16,9 @@ For this homework you'll be using the Open Weather Data API. In order to use it,
 http://api.openweathermap.org/data/2.5/weather?q=10025,us?units=imperial&appid=[PUT YOUR API KEY HERE]
 ```
 
+### You'll be working in the [weather directory](./weather/), in `index.html`, `src/main.js`, and `style/style.css`.
 
-### Your page should have:
+## Your page should have:
 - An input field for a user to enter a zip code
 - A submit button
 - When the submit button is clicked:
