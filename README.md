@@ -4,6 +4,8 @@ This is a bigger homework. Take your time, work through all the parts thoroughly
 
 ## 🚀 Completion looks like:
 
+You've completed all three parts of the homework:
+
 ### Part One: Practice with methods!
 
 - See instructions in the [methods markdown](./methods/)
