@@ -1,6 +1,6 @@
 # HOMEWORK: Practice with Array Methods and APIs!!
 
-This is a bigger homework, we know. Take your time, work through all the parts thoroughly. You can make it!! Maybe work on getting the methods homework all done on Tuesday night and then leaving Wednesday to tackle the API homework... 🤔
+This is a bigger homework. Take your time, work through all the parts thoroughly. You can make it!! 💪💪💪
 
 ## 🚀 Completion looks like:
 
