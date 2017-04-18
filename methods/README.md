@@ -91,12 +91,11 @@ var total = numbers.reduce(function(sum, current) {
 console.log(total);
   => 6
 ```
-Now use [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) to complete the next problem:
+Now use [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) to complete the next two problems:
 
 1. Using `reduce()`, iterate over `response` and concatenate all the imdbIDs together, saving this string to a variable called `rambleOfImdbIDs`. Console log this.
+2. Use `.reduce()` to manipulate the newly created array (from the previous step). Add up all ratings that are greater than 3. Assign the result to a new variable.
 
-#### Bonus: Let's combine some of these methods.
+#### Bonus.
 
-  - Take the `response` object and use `.map()` to add a new attribute `rating` to each object of Search array. Make every rating somehow different.
-
- - Use `.reduce()` to manipulate the newly created array (from the previous step). Add up all ratings that are greater than 3. Assign the result to a new variable.
+- Take the `response` object and use `.map()` to add a new attribute `rating` to each object of Search array. Make every rating somehow different.
