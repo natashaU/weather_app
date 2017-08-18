@@ -27,4 +27,7 @@ It's OK, really, really OK if you don't understand everything just yet, we are h
 - A link to the bitballoon upload of your weather app
 - Completion, comfort, wins, losses, questions... you know the drill.
 
+## Bonus:
+ - Explore node packages! Have fun 😋
+
 ## This homework is due 🚨 11PM ON SUNDAY NIGHT!! 🚨
