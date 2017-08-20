@@ -22,29 +22,49 @@ position: absolute;
 display: flex;
 justify-content: center;
 align-items: center;
-border: 1px solid black;
+/*border: 1px solid black; */
 }
 
 #tempflexcontainer {
 position: absolute;
-left: 50px;
-top: 300px;
-border: 1px solid red;
-width: 200px;
-height: 400px;
+left: 20%;
+top: 40%;
+/*border: 1px solid red; */
+width: 250px;
+height: 200px;
 text-align: center;
 
 }
 
 #min_maxcontainer {
 position: absolute;
-left: 300px;
-top: 400px;
-width: 100px;
-height:100px;
-border: 1px solid red;
+left: 50%;
+top: 53%;
+width: 200px;
+height:300px;
+border: 1px solid white;
+text-align: center;
 
 
+}
+
+#maxdiv {
+  position: relative;
+  top: 10%;
+
+}
+
+
+#mindiv {
+  position: relative;
+  top: 40%;
+
+}
+
+
+
+#tempdiv {
+  font-size: 500%
 }
 
 

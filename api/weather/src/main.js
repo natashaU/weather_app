@@ -42,10 +42,10 @@ var getData = function(data){
 
 var manipulateDom = function(city, temp, description, max_temp, min_temp){
     $('#citydiv').text(city);
-    $('#tempdiv').text(`${temp} ${String.fromCharCode(176)}`);
+    $('#tempdiv').text(`${Math.round(temp)}${String.fromCharCode(176)}`);
     $('#weatherdiv').text(description);
-    $('#maxdiv').text(`Max: ${max_temp} ${String.fromCharCode(176)}`);
-    $('#mindiv').text(`Min: ${min_temp} ${String.fromCharCode(176)}`);
+    $('#maxdiv').text(`Max: ${max_temp}${String.fromCharCode(176)}`);
+    $('#mindiv').text(`Min: ${min_temp}${String.fromCharCode(176)}`);
     changeColor(temp);
 
 
@@ -69,6 +69,7 @@ function changeColor(tempHere) {
       makeCall(input);
       $( "#flexsearch" ).removeClass( "inputflexcontainer" ).addClass( "inputflexcontainer2" );
      $('input[type="text"], text').val('');
+     $($("#min_maxcontainer")).css("border-color", "black");
 
 
 });
