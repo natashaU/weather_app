@@ -5,3 +5,56 @@
 
 
 */
+
+
+
+.inputflexcontainer{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+position: absolute;
+
+}
+
+.inputflexcontainer2{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+}
+
+#tempflexcontainer {
+position: absolute;
+left: 50px;
+top: 300px;
+border: 1px solid red;
+width: 50px;
+
+}
+
+#min_maxcontainer {
+position: absolute;
+left: 300px;
+top: 400px;
+width: 100px;
+height:100px;
+border: 1px solid red;
+
+
+}
+
+
+
+
+
+
+/*#form-id {
+  position: fixed;
+  top: 50%
+  left: 50%;
+  border: 1px solid black;
+  margin: 10px;
+
+}

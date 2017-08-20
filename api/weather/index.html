@@ -5,11 +5,33 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0' />
   <meta http-equiv='X-UA-Compatible' content='ie=edge' />
   <title>Weather app!!!!!</title>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
   <link rel='stylesheet' type='text/css' href='./style/reset.css'>
   <link rel='stylesheet' type='text/css' href='./style/style.css'>
 </head>
 <body>
-  <!-- 
+<div id="flexsearch" class="inputflexcontainer">
+  <div class="inputbox">
+    <form id ="form-id">
+      <input type="text" id="inputzip" placeholder="Enter Your Zipcode">
+      <input type="submit" value="Search" id="submitbtn">
+    </form>
+  </div>
+</div>
+<div id="tempflexcontainer">
+  <div class="weather" id="citydiv"></div>
+  <div class="weather" id="tempdiv"></div>
+  <div class="weather" id="weatherdiv"></div>
+  </div>
+<div id="min_maxcontainer">
+  <div class="weather" id="maxdiv"></div>
+  <div class="weather" id="mindiv"></div>
+</div>
+
+  <!--
     HTML NEEDS
     - input box
     - submit button
