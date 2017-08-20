@@ -30,7 +30,9 @@ position: absolute;
 left: 50px;
 top: 300px;
 border: 1px solid red;
-width: 50px;
+width: 200px;
+height: 400px;
+text-align: center;
 
 }
 

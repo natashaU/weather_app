@@ -46,11 +46,20 @@ var manipulateDom = function(city, temp, description, max_temp, min_temp){
     $('#weatherdiv').text(description);
     $('#maxdiv').text(`Max: ${max_temp} ${String.fromCharCode(176)}`);
     $('#mindiv').text(`Min: ${min_temp} ${String.fromCharCode(176)}`);
+    changeColor(temp);
 
 
   }
 
+function changeColor(tempHere) {
+  if (tempHere > 90) {
+    $($('#tempdiv')).css('color', 'red');
 
+  } else if (tempHere < 40) {
+    $($('#tempdiv')).css('color', 'blue');
+
+  }
+}
 
 
     $( "#form-id" ).submit(function( event) {
@@ -60,6 +69,8 @@ var manipulateDom = function(city, temp, description, max_temp, min_temp){
       makeCall(input);
       $( "#flexsearch" ).removeClass( "inputflexcontainer" ).addClass( "inputflexcontainer2" );
      $('input[type="text"], text').val('');
+
+
 });
 
 })
